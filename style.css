@@ -1,0 +1,22 @@
+#grid img {
+	border: 3px solid black;
+	padding: 6px;
+	background: #222;
+	border-radius: 2px;
+}
+#grid .active {
+	border-color: red;
+}
+
+#focus {
+	background: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#focus-image {
+	max-width: 100%;
+	height: auto;
+}
